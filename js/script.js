@@ -14,6 +14,6 @@ menu.onscroll = () => {
 };
 
 myAlert.onclick = () => {
-  myAlert.classList.toggle("d-none");
   myAlert.querySelector("d-none").innerHTML = "d-block";
+  myAlert.classList.toggle("d-none");
 };
